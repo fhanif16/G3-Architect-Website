@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: antiquewhite;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nav div .link {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.nav-discription {
+    text-align: center;
+}
+
+.banner-img {
+    margin-top: 5%;
+    width: 900px;
+    height: 500px;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+   
+}
+
+.feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.feature-img img {
+    width: 200px;
+}
+
+#feature{
+   margin: 10%;
+}
